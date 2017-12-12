@@ -5,5 +5,48 @@ html {
 
 body {
   font-family: Helvetica;
-  
+}
+
+/* Nav container*/
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+nav {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+nav div {
+  align-items: center;
+  display: flex;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.mobile-menu {
+  display: none;
 }
