@@ -1,10 +1,10 @@
 html {
   font-size: 18px;
-  line-height: 1.4;
 }
 
 body {
   font-family: Helvetica;
+  line-height: 1.4;
 }
 
 /* Nav container*/
@@ -104,4 +104,22 @@ h1 {
 
 .service img.paper-icon {
   width: 3.5rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
 }
